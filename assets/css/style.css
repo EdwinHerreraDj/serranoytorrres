@@ -225,7 +225,7 @@ h6 {
   margin-bottom: 10px;
   font-weight: 700;
   color: #222127;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 h1 {
@@ -314,7 +314,7 @@ p {
 }
 
 .section-padding {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 @media (max-width: 1080px) {
   .section-padding {
@@ -4529,7 +4529,7 @@ Hero Section Styles
   height: calc(70% + 30px);
   content: "";
   position: absolute;
-  background-image: url(../img/home_01/bg_01.png);
+  background-image: url(/assets/img/bg_granada_1920x530.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
