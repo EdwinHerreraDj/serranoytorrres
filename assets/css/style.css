@@ -8,6 +8,11 @@ Version: 1.2.0
 */
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Prata&display=swap");
 
+:root{
+  --color--serranoytorres: #008ccd;
+}
+
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -327,7 +332,7 @@ h3 {
 
 h4 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 30px;
 }
 
 h5 {
@@ -2635,7 +2640,7 @@ header.header_1 .main-menu ul>li>a {
 }
 
 header.header_1 .main-menu ul>li:hover>a {
-  color: #B69D74;
+  color: #008CCD;
 }
 
 header.header_1 .main-menu ul>li:hover>ul {
@@ -2712,7 +2717,7 @@ header.header_1 .main-menu_2 ul>li>a {
 }
 
 header.header_1 .main-menu_2 ul>li:hover>a {
-  color: #B69D74;
+  color: var(--color--serranoytorres);
 }
 
 header.header_1 .main-menu_2 ul>li:hover>ul {
@@ -4010,7 +4015,7 @@ Hero Section Styles
 }
 
 .hero_wrapper.hero-3 .hero-contents {
-  padding: 200px 0px;
+  padding: 200px 0px 50px 0px;
 }
 
 @media (max-width: 1024px) {
@@ -4574,6 +4579,7 @@ Hero Section Styles
 .single_about_img.single_about_img_2 {
   position: relative;
   z-index: 1;
+  border-radius: 5px;
 }
 
 .single_about_img.single_about_img_2 .modal_widget {
@@ -8801,7 +8807,7 @@ footer .single_footer_widget .single_footer_link ul>li>a i {
 }
 
 footer .single_footer_widget .single_footer_link ul>li>a:hover {
-  color: #B69D74;
+  color: #008CCD;
   padding-left: 10px;
 }
 
@@ -9173,4 +9179,7 @@ footer .bottom_wrapper .footer_link a:hover {
   margin-bottom: 10px;
   background-color: white;
   border-radius: 10px;
+}
+#f-stlink {
+  color: var(--color--serranoytorres);
 }
